@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: site
+    password: site
+    url: jdbc:mysql://localhost:3306/site
+ 
+  jpa:
+    hibernate:
+       ddl-auto: update
+    show-sql: true
